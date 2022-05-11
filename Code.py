@@ -390,7 +390,7 @@ ax[1].axis('off')
 fig, ax = plt.subplots(1, 1, figsize=(5,5))
 ax.imshow(cv.cvtColor(final_img, cv.COLOR_BGR2RGB))
 ax.set_title("Stitched Image")
-ax.axis('off')
+ax.axis("off")
 
 print(f"Computed Homography:\n{H1to5}")
 print(f"Actual Homography:\n{actual_H}")
